@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Aplicaciones
-    'arch_int'
+    'arch_int',
     
     # 3 app
     'crispy_forms',

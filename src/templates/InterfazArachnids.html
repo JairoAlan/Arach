@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Arachnids</title>
-    <link rel="stylesheet" href="css/styleA.css">
-    <link rel="stylesheet" href="css/Normalize.css">
-    <link rel="stylesheet" href="css/leaflet.css">
-    <script src="js/leaflet.js"></script>
+    <link rel="stylesheet" href="{% static 'css/styleA.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}">
+    <script src="{% static 'js/' %}"></script>
 
 </head>
 <body>
     <div class="contenedor">
         <div class="contenedorDos">
             <div class="imagen">
-                <img class="logo" src="Img/lia.png">
-                <img class="logo" src="Img/upte.png">
-                <img class="logo" src="Img/upt.png">
-                <img class="logo" src="Img/arachnids.png">
+                <img class="logo" src="{% static 'Img/lia.png' %}">
+                <img class="logo" src="{% static 'Img/upte.png' %}">
+                <img class="logo" src="{% static 'Img/upt.png' %}">
+                <img class="logo" src="{% static "Img/arachnids.png" %}">
             </div>
             <div class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1512.0604439429044!2d-98.3846297!3d20.1337218!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d0f92a3edcceed%3A0x698e7576e27f75d3!2sCancha%20De%20F%C3%BAtbol%20UPT!5e1!3m2!1ses-419!2smx!4v1707924997782!5m2!1ses-419!2smx"
