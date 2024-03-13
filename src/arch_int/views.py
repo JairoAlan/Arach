@@ -9,7 +9,7 @@ def home_view(request):
     graficaVelocidad = ve_ti()
     graficaAceleracion = ac_ti()
     
-    return render(request,'InterfazScorpion.html',{'graficaAltura': graficaAltura, 
+    return render(request,'InterfazArachnids.html',{'graficaAltura': graficaAltura, 
                                                    'graficaPresion': graficaPresion,
                                                    'graficaTemperatura': graficaTemperatura,
                                                    'graficaVelocidad': graficaVelocidad,
